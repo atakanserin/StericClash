@@ -7,7 +7,7 @@ In StericalClash.java I used a method that that uses 1.9M and 1.6M comparisons a
 
 Main idea in the method was trimming the proteins, in other words
 getting rid of atoms that are never going to clash.
-Atoms are stored in ArrayList of type Atom.
+Atoms are stored in ArrayList of type Atom and it is assumed that atoms have 2 Angsrom radii.
 Firstly both array lists are sorted in quick sort according to their x coordinates. Luckily sorting did not cost much comparisons. The reason of sorting was that I wanted to see atoms which share a feature closer and also useless atoms are located closely to each other(soon will be explained). Below observation and illustration brings a deeper understanding to reason of sorting atoms by using their x coordinates:
 
 - If two atoms x coordinates difference is greater than 4 than these two atoms can not clash.(Of course it can be x, y or z coordinate but I used x coordinate for no reason.)
