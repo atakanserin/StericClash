@@ -18,12 +18,12 @@ I used this key fact to trim the array lists from unnecessary atoms. Illustratio
 
 x coordinates increasing order direction —>  	
 
-	      —-unused atoms—-
+	—-unused atoms—-
 File 1	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-			                  |		 |
-		                  	|		 |
+			|                |
+		        |                | 
 File 2			bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-					                    ——-unused atoms———
+					  ——-unused atoms———
 
 
 
